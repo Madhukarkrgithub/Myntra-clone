@@ -168,3 +168,38 @@ body h1 {
     width: 100%;
     height: 40%;
 }
+
+#triangle{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 1px solid grey;
+    margin: 10px;
+    display: flex;
+    padding: 10px 5px;
+}
+
+.profiledrop{
+    padding: 6px 40px 0 40px;
+    background: white;
+    text-align: top;
+    box-shadow: rgba(231, 227, 227, 0.1) 0px 1px 3px 0px, rgba(173, 171, 171, 0.06) 0px 1px 2px 0px;
+    /* box-shadow: 0 5px 10px white; */
+    z-index: 2;
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 31%;
+    height: fit-content;
+    top: -9999px;
+    right: 6%;
+    margin: -16px;
+    justify-content: flex-end;
+    text-align: start;
+}
