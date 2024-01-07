@@ -323,3 +323,37 @@ nav .dropdown:nth-child(4){
     
     margin-bottom: -1.125rem;
 }
+
+.lastdrop:hover .profiledrop{
+    top: 100%;
+}
+.virat:hover .studio{
+    top: 145%;
+}
+.virat:hover {
+    border-bottom: 3px solid #c7173a;
+}
+.virat{
+    
+    margin-bottom: -1.125rem;
+    height: 3.125rem;
+}
+ nav ul.menu-area ul{
+    /* width: 25%; */
+    margin-bottom: 0px;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 5px; */
+    list-style: none;
+ }
+ nav ul.menu-area h4{
+   
+    text-transform: uppercase;
+    
+    width: 100%;
+
+    margin-left: -1.875rem;
+    margin-top: 0.625rem;
+    
+ }
