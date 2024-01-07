@@ -357,3 +357,46 @@ nav .dropdown:nth-child(4){
     margin-top: 0.625rem;
     
  }
+ 
+ nav ul.menu-area ul {
+    width: 16%;
+    /* border: 1px solid red; */
+    
+  }
+ 
+  nav ul.menu-area ul li{
+     display: block;
+     line-height: 2em;
+     margin-left: -1.7rem;
+    /* border: 1px solid #000; */
+     width: 100%;
+     text-align: start;
+     font-family: 'Raleway', sans-serif;
+    
+    
+  }
+ 
+  nav ul.menu-area ul li a{
+     margin-top: 0.31rem;
+     /* border: 1px solid #000; */
+     /* margin-left: 0.8rem; */
+     
+  }
+  nav ul.menu-area ul li a:hover{
+     color: brown;
+  }
+  #smallHeader{
+     display: none;
+     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+     /* height: 5rem; */
+     
+ }
+ #sContent{
+     display: flex;
+     /* border: 1px solid #000; */
+ }
+ #sLeft{
+     width: 80%;
+     display: flex;
+     /* border: 1px solid #000; */
+ }
