@@ -131,3 +131,40 @@ body h1 {
     margin-top: 8px;
     display: block;
 }
+
+.studio{
+    padding: 40px 40px 5px 40px; 
+    background: white;
+    text-align: top;
+  
+    box-shadow: 0 5px 10px white;
+    z-index: 1;
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:32em;
+    height: fit-content;
+    width: fit-content;
+    top: -9999px;
+  
+    
+    justify-content: center;
+    align-items: center;
+   margin: -36px 0px 0 -50px;
+}
+.studio li{
+    list-style: none;
+    margin-top: 10px;
+    /* border: 1px solid #000; */
+}
+.studio li:nth-child(3){
+    
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 40%;
+}
