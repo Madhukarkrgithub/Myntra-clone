@@ -422,3 +422,80 @@ nav .dropdown:nth-child(4){
     margin: 1.48rem 0rem 0rem 1rem;
     scale: 1.5;
 }
+
+/* media queries for nav bar */
+
+/* small screen */
+@media (max-width: 767px) {
+    header{
+        display: none;
+       
+    }
+    #smallHeader{
+        display: block;
+       
+        
+    }
+     
+  }
+
+  /* medium screen */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav{
+        /* flex-direction: column; */
+        
+    }
+    .section2 .grid{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+      
+    }
+    .section3 .grid{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        
+    }
+    .section4 .grid{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        
+    
+  }
+  .section5 .grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+   
+
+}
+}
+@media (min-width: 737px) and (max-width: 1446px) {
+    nav .dropdown:nth-child(4)
+{
+    width:155px;
+    /* border: 1px solid #000; */
+
+}
+
+}
+@media (min-width: 737px) and (max-width: 1150px) {
+
+.search{
+    width: 18vw;
+    margin-left: -1.5rem;
+    margin-right: -1rem;
+
+}
+.left{
+    /* border: 1px solid #000; */
+    width: 35rem;
+    margin-left: -1.5rem;
+}
+}
+
+
+
+.section1{
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
