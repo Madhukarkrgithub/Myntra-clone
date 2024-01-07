@@ -231,3 +231,37 @@ body h1 {
 nav > ul > li:hover{
     background: rgba(31, 57, 207, 0.944);
 }
+
+#login{
+    padding: 0.6rem 0.8125rem;
+    color: #ff3f6c;
+    margin: 0.625rem 0;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+
+}
+nav ul.menu-area{
+    /* padding: 40px 40px 0 40px; */
+    padding-top: 2.5rem;
+    background: white;
+    text-align: bottom;
+    /* border: 5px solid yellow; */
+    box-shadow: 0 5px 10px white;
+    z-index: 1;
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    width: 74vw;
+    top: -9999px;
+    left: 22%;
+    /* margin: -30px; */
+    margin-top: 1px;
+    margin-left: -0.9rem;
+    /* border: 1px solid greenyellow; */
+}
