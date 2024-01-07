@@ -107,3 +107,27 @@ body h1 {
   
     margin-bottom: -8px;
   }
+
+  nav ul > li.dropdown >a::after{
+    position: absolute;
+    float: right;
+    content: '';
+    /* margin-left:10px; */
+    /* margin-top: 8px; */
+    z-index: 2;
+    display: block;
+    /* border: 1px solid #000; */
+}
+.lastdrop >a::after{
+    position: absolute;
+    float: left;
+    margin-top: 18px;
+    /* display: inline-block; */
+    
+}
+.virat >a::after{
+    position: absolute;
+    float: right;
+    margin-top: 8px;
+    display: block;
+}
