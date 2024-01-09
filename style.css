@@ -550,3 +550,29 @@ margin-top: 10px;
 .max img{
     padding-bottom: 4px;
 }
+.item-center{
+    align-items: center;
+}
+.content-center{
+    justify-content: center;
+}
+.flex{
+    padding-left: 3px;
+}
+
+.flex >li {
+   
+    list-style: none;
+
+   
+    padding-top: 17px; 
+    }
+.flex li a{
+text-decoration:none ;
+color: black;
+font-weight: bold;
+list-style: none;
+padding: 0 15px;
+letter-spacing: 0.1em
+  
+}
