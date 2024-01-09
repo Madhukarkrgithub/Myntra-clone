@@ -520,3 +520,33 @@ margin-top: 30px;
     width: 100%;
     height: fit-content;
 }
+
+/* footer css */
+
+.nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+   padding-left: 30px;
+}
+
+.profile{
+   
+margin-top: 10px;
+}
+.max{
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+     display: flex;
+    flex-direction: column;
+   
+    width: fit-content;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 3rem;
+}
+.max img{
+    padding-bottom: 4px;
+}
