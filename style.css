@@ -576,3 +576,37 @@ padding: 0 15px;
 letter-spacing: 0.1em
   
 }
+
+.hrline{
+    border:   0.5px solid grey ;
+    height: px;
+    width: 75%;
+    background-color: lightgrey;
+    margin-left: -10px;
+}
+.logo{
+    width: 1.875rem;
+    height: 1.875rem;
+    background-color: white;
+    margin-bottom: -5px ;
+    
+}
+.logohref{
+text-decoration: none;
+color: black;
+font-weight: bold;
+ font-size: 10px;
+ margin-top: 5px; 
+}
+
+.grid{
+   display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+.lastitem{
+    height: fit-content;
+    margin-bottom: -0.5rem;
+}
+.lastitem img{
+    width: 100%;  
+}
