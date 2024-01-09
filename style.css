@@ -499,3 +499,24 @@ justify-content: center;
 align-items: center;
 margin-top: 30px;
 }
+
+.bottomcontainer{
+    width: 100vw;
+}
+
+.trends img{
+    width: 100%;
+}
+.lastcontainer{
+    width: 100%;
+   margin: auto;
+   align-items: center;
+}
+.casualitem{
+   margin-bottom: -0.5rem;
+  
+}
+.casualitem img{
+    width: 100%;
+    height: fit-content;
+}
