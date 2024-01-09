@@ -714,3 +714,40 @@ h1{
        transition: 1s;
        z-index: 1;
    }
+   .slide img{
+    /* width: 800px; */
+    /* height: 500px; */
+    /* z-index: 1; */
+    width: 100%;
+    }
+    
+    .navigation-manual{
+    /* position: absolute; */
+    display: flex;
+    margin: -40px 40% 0 40%;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .manual-btn{
+     background-color: grey;
+        padding: 7px;
+        border-radius:20px;
+        cursor:pointer;
+        transition: 1s;
+    
+    }
+    .manual-btn:not(:last-child){
+    margin-right: 40px;
+    }
+    .manual-btn:hover{
+        background: rebeccapurple;
+    }
+    #radio1:checked ~ .first{
+        margin-left: 0;
+    }
+    #radio2:checked ~ .first{
+    
+      
+        margin-left: -20%;
+    }
