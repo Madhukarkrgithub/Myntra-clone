@@ -11,8 +11,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
   />
-    <link rel="stylesheet" href="./Login.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./SignUP.css">
 </head>
 
     <div id="smallHeader">
@@ -567,22 +567,24 @@
         </nav>
     </header>
 
-    <div id="Logindiv">
-        <div id="logincontainer">
-
-            <div>
-                <h3>Login to your account</h3>
+    <div id="signup">
+        <div id="couponimg"><img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/1/25/f5e9a029-33c3-4a92-811b-ef7917fe6d441674670210687-offer-banner-300-600x240-code-_-MYNTRA300.jpg" alt="Coupon Banner"></div>
+        <div id="formcontainer">
+            <div id="formheading" ><span >Login</span> or <span>SignUp</span></div>
+            <div id="signupform">
+                <form >
+                    <div >
+                        <input type="tel" id="mobileno" maxlength="10" placeholder="Mobile Number">
+                        <span style="font-size: 10px; color: #ff5722;"></span> 
+                    </div>
+                    <div>By continuing,I agree to the <a href="#" style="color :#ff3f6c; text-decoration: none;" >Terms of Use</a> & <a href="#" style="color :red; text-decoration: none;"> Privacy Policy</a></div>
+                    <input type="submit" value="CONTINUE" id="continue">
+                    <div>Have trouble logging in ?  <a href="#" style="color :#ff3f6c; text-decoration: none;" >Get help</a></div>
+                </form>
             </div>
-            <form >
-                <div><input type="text" placeholder="Email or Mobile Number" id="emailormobile"></div>
-                <div><input type="password" placeholder="Password" id="password"></div>
-                <div><input type="submit" id="subm"></div>
-            </form>
-            <div>Forgot your password  <a href="#" style="color :#ff3f6c; text-decoration: none;" >Reset here</a></div>
-            <div>Have trouble logging in ?  <a href="#" style="color :#ff3f6c; text-decoration: none;" >Get help</a></div>
         </div>
     </div>
-    
+
 </body>
 </html>
 <script src="./Login.js"></script>
