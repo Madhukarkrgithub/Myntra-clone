@@ -1,3 +1,231 @@
+.nav{
+    display: flex;
+    position: sticky;
+    top: 0;
+    /* width: 100%; */
+   padding-left: 30px;
+    
+ 
+   
+}
+
+.profile{
+   
+margin-top: 10px;
+}
+.max{
+    margin-left: 1.5rem;
+    margin-right: 0.5rem;
+     display: flex;
+    flex-direction: column;
+   
+    width: fit-content;
+   
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 3rem;
+}
+.max img{
+    padding-bottom: 4px;
+}
+
+.item-center{
+    align-items: center;
+}
+.content-center{
+    justify-content: center;
+}
+.flex{
+    padding-left: 3px;
+}
+
+.flex >li {
+   
+    list-style: none;
+
+   
+    padding-top: 17px; 
+    }
+.flex li a{
+text-decoration:none ;
+color: black;
+font-weight: bold;
+list-style: none;
+padding: 0 15px;
+letter-spacing: 0.1em
+  
+}
+
+.hrline{
+    border:   0.5px solid grey ;
+    height: px;
+    width: 75%;
+    background-color: lightgrey;
+    margin-left: -10px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    margin-bottom: -5px ;
+    
+}
+.logohref{
+text-decoration: none;
+color: black;
+font-weight: bold;
+ font-size: 10px;
+ margin-top: 5px; 
+}
+
+.grid{
+   display: grid;
+    grid-template-columns: repeat(8,1fr);
+   
+   
+}
+.lastitem{
+    height: fit-content;
+    margin-bottom: -0.5rem;
+}
+.lastitem img{
+    width: 100%;
+   
+    
+}
+
+
+h1{
+    font-weight: bolder;
+    margin: 5vh 0 5vh 8vw; 
+}
+
+/* navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+header{
+    position: sticky;
+    top: 0;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+z-index: 99;
+margin: 0;
+}
+.myntralogo{
+    margin: 4px 0 2px -20px;
+    width: 117px;
+    height: 65px; 
+    padding-top: 12px;
+}
+.myntralogo img{
+   
+    width: 100%;
+    font-size: 5px;
+}
+
+ .flex li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+} 
+.nav ul{
+    display: flex;
+    
+}
+.right{
+    padding-right: 2rem; 
+ } 
+ .search{
+     width: 36vw;
+     border: none;
+     outline: none;
+     background-color: #f5f5f6;
+     padding: 12px;
+     margin-right: 25px;
+     margin-left: 7%;
+     border-radius: 5px;
+  
+     
+   
+ }
+ 
+ body h1 {
+     font-family: "Proxima Nova", Arial, sans-serif;
+     letter-spacing: 0.2rem;
+     opacity: 0.8;
+     margin-left: 1.4rem;
+     margin-bottom: 3.2rem;
+     margin-top: 3rem;
+     font-size: 1.6rem;
+   }
+   .newone{
+     width:30px ;
+     height: 30px;
+   
+     margin-bottom: -8px;
+   }
+   
+   
+nav ul > li.dropdown >a::after{
+    position: absolute;
+    float: right;
+    content: '';
+    margin-left:10px;
+    margin-top: 8px;
+    z-index: 2;
+    display: block;
+    border: 1px solid #000;
+}
+.lastdrop >a::after{
+    position: absolute;
+    float: left;
+    margin-top: 18px;
+    /* display: inline-block; */
+    
+}
+.virat >a::after{
+    position: absolute;
+    float: right;
+    margin-top: 8px;
+    display: block;
+}
+.studio{
+    padding: 40px 40px 5px 40px; 
+    background: white;
+    text-align: top;
+  
+    box-shadow: 0 5px 10px white;
+    z-index: 1;
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:32em;
+    height: fit-content;
+    width: fit-content;
+    top: -9999px;
+  
+    
+    justify-content: center;
+    align-items: center;
+   margin: -36px 0px 0 -50px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -9,6 +237,13 @@ nav hr{
 .flex li:first-child h4{
     color: #f41c40;
   margin-left: -0.8rem;
+
+}
+.flex li:first-child{
+    /* border: 1px solid #d90a0a; */
+    
+    /* height: 20px; */
+    
 }
 .flex li:nth-child(2) h4{
     color: #f41cc5;
@@ -29,6 +264,7 @@ nav hr{
 
 .flex li:first-child{
   border-bottom: #f41c40;
+  /* z-index: 5; */
 }
 html,body{
     height: 100%;
@@ -79,6 +315,9 @@ margin: 0;
     margin-right: 1.8rem;
     margin-left: 4rem;
     border-radius: 5px;
+ 
+    
+  
 }
 
 body h1 {
@@ -104,6 +343,7 @@ body h1 {
     /* margin-top: 8px; */
     z-index: 2;
     display: block;
+    /* border: 1px solid #000; */
 }
 .lastdrop >a::after{
     position: absolute;
@@ -138,6 +378,8 @@ body h1 {
     height: fit-content;
     width: fit-content;
     top: -9999px;
+  
+    
     justify-content: center;
     align-items: center;
    margin: -36px 0px 0 -50px;
@@ -145,8 +387,11 @@ body h1 {
 .studio li{
     list-style: none;
     margin-top: 10px;
+    /* border: 1px solid #000; */
 }
 .studio li:nth-child(3){
+    
+    /* border: 1px solid #000; */
     width: 100%;
     height: 40%;
 }
@@ -474,172 +719,60 @@ nav .dropdown:nth-child(4){
 }
 }
 
+   /* Login.css */
 
-
-.section1{
-justify-content: center;
-align-items: center;
-margin-top: 30px;
+   body{
+    background-color: #fdedf0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.bottomcontainer{
-    width: 100vw;
-}
-
-.trends img{
-    width: 100%;
-}
-.lastcontainer{
-    width: 100%;
-   margin: auto;
-   align-items: center;
-}
-.casualitem{
-   margin-bottom: -0.5rem;
-  
-}
-.casualitem img{
-    width: 100%;
-    height: fit-content;
-}
-
-/* footer css */
-
-.nav{
-    display: flex;
-    position: sticky;
-    top: 0;
-   padding-left: 30px;
-}
-
-.profile{
-   
-margin-top: 10px;
-}
-
-.max{
-    margin-left: 1.5rem;
-    margin-right: 0.5rem;
-     display: flex;
-    flex-direction: column;
-   
-    width: fit-content;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    height: 3rem;
-}
-.max img{
-    padding-bottom: 4px;
-}
-.item-center{
-    align-items: center;
-}
-.content-center{
-    justify-content: center;
-}
-.flex{
-    padding-left: 3px;
-}
-
-.flex >li {
-    list-style: none;
-    padding-top: 17px; 
-}
-.flex li a{
-text-decoration:none ;
-color: black;
-font-weight: bold;
-list-style: none;
-padding: 0 15px;
-letter-spacing: 0.1em
-}
-.hrline{
-    border:   0.5px solid grey ;
-    height: px;
-    width: 75%;
-    background-color: lightgrey;
-    margin-left: -10px;
-}
-.logo{
-    width: 1.875rem;
-    height: 1.875rem;
+#Logindiv{
+    width: 400px;
+    height: 80vh;
+    margin: auto;
+    margin-top: 30px;
     background-color: white;
-    margin-bottom: -5px ; 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    
 }
-.logohref{
-text-decoration: none;
-color: black;
-font-weight: bold;
- font-size: 10px;
- margin-top: 5px; 
-}
-.grid{
-   display: grid;
-    grid-template-columns: repeat(8,1fr);
-}
-.lastitem{
-    height: fit-content;
-    margin-bottom: -0.5rem;
-}
-.lastitem img{
-    width: 100%;  
-}
-h1{
-    font-weight: bolder;
-    margin: 5vh 0 5vh 8vw; 
+#logincontainer{
+    padding :40px
 }
 
-    /* Login.css */
+input{
+    width: 90.5%;
+    padding: 13px;
+    margin-bottom: 20px;
+    
+}
+h3{
+    margin: 30px 0px;
+}
+#subm{
+    width: 100%;
+    color: white;
+    background-color:#ff3f6c;
+    border: none;
+    margin: 0;
+}
+form+div{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 30px 0px;
+}
+form+div+div{
+    font-size: 12px;
+    font-weight: 400;
+}
+a{
+    font-weight: 500;
+}
 
-    body{
-        background-color: #fdedf0;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
+@media only screen  and (max-width:400px){
     #Logindiv{
-        width: 400px;
-        height: 80vh;
-        margin: auto;
-        margin-top: 30px;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-        
-    }
-    #logincontainer{
-        padding :40px
-    }
-    
-    input{
-        width: 90.5%;
-        padding: 13px;
-        margin-bottom: 20px;
-        
-    }
-    h3{
-        margin: 30px 0px;
-    }
-    #subm{
         width: 100%;
-        color: white;
-        background-color:#ff3f6c;
-        border: none;
-        margin: 0;
     }
-    form+div{
-        font-size: 12px;
-        font-weight: 400;
-        margin: 30px 0px;
-    }
-    form+div+div{
-        font-size: 12px;
-        font-weight: 400;
-    }
-    a{
-        font-weight: 500;
-    }
-    
-    @media only screen  and (max-width:400px){
-        #Logindiv{
-            width: 100%;
-        }
-    }
+}
+
+
+/* extra */
+
