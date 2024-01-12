@@ -11,8 +11,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
   />
-    <link rel="stylesheet" href="./Login.css">
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./createaccount.css">
 </head>
 
     <div id="smallHeader">
@@ -567,20 +567,47 @@
         </nav>
     </header>
 
-    <div id="Logindiv">
-        <div id="logincontainer">
-
-            <div>
-                <h3>Login to your account</h3>
+    <div id="createaccount">
+        <div id="header">
+            <div id="accountheader">
+                Complete your sign up
             </div>
-            <form >
-                <div><input type="text" placeholder="Email or Mobile Number" id="emailormobile"></div>
-                <div><input type="password" placeholder="Password" id="password"></div>
-                <div><input type="submit" id="subm"></div>
-            </form>
-            <div>Forgot your password  <a href="#" style="color :#ff3f6c; text-decoration: none;" >Reset here</a></div>
-            <div>Have trouble logging in ?  <a href="#" style="color :#ff3f6c; text-decoration: none;" >Get help</a></div>
+            <div id="mobileheader">
+                Mobile Number
+            </div>
+            <div id="mobileno">
+                <span></span>
+            </div>
         </div>
+        <div id="acountform">
+            <form >
+                <input type="password" id="pass" placeholder="Create Password">
+            
+            <div id="passcondition">
+                <div id="char">8 Characters</div>
+                <div id="spe"> 1 Special</div>
+                <div id="upp">1 Uppercase</div>
+                <div id="num">1 Numeric</div>
+            </div>
+            <input type="text" name="Full name" id="fname" placeholder="Full Name">
+            <input type="email" name="email" id="email" placeholder="Email (Optional)">
+            
+            <div id="gender">
+                Select Gender:
+                <input type="radio" id="female" value="Female" name="Gender"><label for="female">Female</label>
+                <input type="radio" id="male" value="Male" name="Gender"><label for="male">Male</label>
+            </div>
+            <input type="tel" id="altmobil" placeholder="Alternate Mobile Number">
+            <div >
+                This will help recover your account if needed
+            </div>
+            <input type="text" id="hint" placeholder="Hint name(Alternate number)">
+            <div>This name will be a hint for your alternate number</div>
+            <input type="button" value="CREATE ACCOUNT" id="button">
+            </form>
+            
+        </div>
+        <!-- <button> CREATE ACCOUNT</button> -->
     </div>
 
     <footer>
