@@ -55,7 +55,7 @@ var b4=document.querySelector("#box4").value
             window.alert("Logged in Successfully")
            
 
-            window.location.href="/index.html"
+            window.location.href="../index.html"
         }
     }else if(finalOtp=="1234" ){
         window.location.href="/admin/admin.html"

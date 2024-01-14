@@ -29,7 +29,7 @@ document.querySelector("form").addEventListener("submit", function () {
             // console.log(userObj)
            
             localStorage.setItem("userObj",JSON.stringify(userObj))
-            window.location.href="/index.html"
+            window.location.href="../index.html"
         }
     })
 

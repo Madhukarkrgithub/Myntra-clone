@@ -40,6 +40,6 @@ document.querySelector("#button").addEventListener("click",function(){
 
     account.push(obj)
     localStorage.setItem("account",JSON.stringify(account))
-    window.location.assign("/index.html")
+    window.location.assign("../index.html")
     // localStorage.clear("account")
 })
