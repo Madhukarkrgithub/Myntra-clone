@@ -374,7 +374,7 @@ function display(array) {
   array.forEach(function (element, index) {
     var div = document.createElement("div");
     div.addEventListener("click", function () {
-      window.location.assign("/Myntra-clone/intem/item.html")
+      window.location.assign("../intem/item.html")
     });
     var img = document.createElement("img");
     img.setAttribute("id", "img-img");
