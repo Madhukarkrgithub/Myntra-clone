@@ -188,13 +188,13 @@ function updateDisplay(arr) {
 
 
 document.querySelector(".wishlist").addEventListener("click", function () {
-  window.location.assign("/Wishlist/wishlist.html");
+  window.location.assign("../Wishlist/wishlist.html");
 });
 
 document.querySelector(".makeorder").addEventListener("click", function () {
-  window.location.assign("/Address/address.html");
+  window.location.assign("../Address/address.html");
 });
 
 document.querySelector("#homePage").addEventListener("click", function () {
-  window.location.assign("/index.html");
+  window.location.assign("../index.html");
 });
