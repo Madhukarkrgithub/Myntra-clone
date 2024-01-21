@@ -374,7 +374,7 @@ function display(array) {
   array.forEach(function (element, index) {
     var div = document.createElement("div");
     div.addEventListener("click", function () {
-      // window.location.assign("/productPage/kidsData/kids.html")
+      window.location.assign("/Myntra-clone/intem/item.html")
     });
     var img = document.createElement("img");
     img.setAttribute("id", "img-img");
@@ -403,7 +403,7 @@ function display(array) {
       };
       localStorage.setItem("itemDetails", JSON.stringify(itemObj));
       // console.log(itemObj.discountPercentage);
-      window.location.assign("/intem/item.html")
+      window.location.assign("/Myntra-clone/intem/item.html")
       
     });
 

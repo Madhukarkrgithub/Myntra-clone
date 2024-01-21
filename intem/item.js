@@ -147,7 +147,7 @@ addToCartButton.addEventListener("click", function () {
     goToBagSpan.addEventListener("click", function () {
       /********************************* Checking for Duplicacy ************************************************* */
 
-     window.location.assign("/cartPage/cart.html")
+     window.location.assign("../CartPage/cart.html")
     });
   }
 });
