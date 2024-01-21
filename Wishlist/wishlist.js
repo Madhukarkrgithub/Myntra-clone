@@ -32,7 +32,7 @@ function display(array) {
     emptyWishlistBtn.textContent = "CONTINUE SHOPING";
     emptyWishlistBtn.setAttribute("id", "emptyWishlistbtn");
     emptyWishlistBtn.addEventListener("click", () => {
-      window.location.assign("/productPage/productItem/product.html")
+      window.location.assign("../productPage/productItem/product.html")
     })
 
     emptydiv.append(emptyImg, emptyH, emptyP, emptyWishlistBtn);
