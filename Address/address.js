@@ -31,7 +31,7 @@ submitbtn.addEventListener("click", function () {
         alertp.style.color = "red"
 
     } else {
-        window.location.assign("/payment/payment.html")
+        window.location.assign("../payment/payment.html")
     }
 
 
